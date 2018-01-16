@@ -26,14 +26,16 @@
   "dependencies": {
     "axios": "0.13.1",
     "bootstrap": "^3.3.5",
+    "express": "4.15.3",
     "history": "^3.0.0",
+    "minimist": "1.2.0",
     "moment": "^2.10.6",
     "react": "15.3.0",
     "react-dom": "15.3.0",
+    "react-redux": "5.0.6",
     "react-router": "2.6.1",
     "react-tooltip": "3.1.5",
-    "express": "4.15.3",
-    "minimist": "1.2.0"
+    "redux": "3.7.2"
   },
   "devDependencies": {
     "add-asset-html-webpack-plugin": "2.0.1",
