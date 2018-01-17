@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import localStyle from './styles.css'
 
 export default class Home extends Component {
   handleSubmit = (e) => {
@@ -24,7 +25,10 @@ export default class Home extends Component {
               />
             </div>
           </div>
-          <button type="submit" className="btn btn-primary">
+          <button
+            type="submit"
+            className={`btn btn-primary ${localStyle.button}`}
+          >
             Go
           </button>
         </form>
